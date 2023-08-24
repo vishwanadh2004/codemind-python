@@ -1,4 +1,4 @@
-r=float(input())
+r=int(input())
 pi=3.14
-area=pi*r*r
-print("%0.2f"%area)
+a=pi*r*r
+print(f"{a:.2f}")
