@@ -1,14 +1,14 @@
 a=int(input())
-s=0
-b=a
 flag=0
+rev=0
+b=a
 if a<0:
     flag=1
     b=abs(a)
-while(b!=0):
+while b!=0:
     r=b%10
     b=b//10
-    s=s*10+r
-if flag==1:
-    s=-s
-print(s)
+    rev=rev*10+r
+if flag == 1:
+    rev=-rev
+print(rev)
