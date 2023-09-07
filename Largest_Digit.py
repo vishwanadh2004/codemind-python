@@ -1,3 +1,2 @@
-a=input()
-lar=max(a)
-print(lar)
+a=int(input())
+print(max(str(a)))
