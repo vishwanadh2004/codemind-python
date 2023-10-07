@@ -12,3 +12,4 @@ elif a-c>d-a:
     print(d)
 else:
     print(c,d)
+    
