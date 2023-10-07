@@ -2,11 +2,11 @@ a=int(input())
 sm=0
 pro=1
 while(a!=0):
-    r=a%10
+    s=a%10
+    sm=sm+s
+    pro=pro*s
     a=a//10
-    sm=sm+r
-    pro=pro*r
-    
+
 if sm==pro:
     print("Spy Number")
 else:
