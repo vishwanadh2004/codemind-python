@@ -4,7 +4,7 @@ if a>b:
 else:
     max=b
 while True:
-    if max%a==0 == max%b==0:
+    if max%a==0==max%b==0:
         print(max)
         break
     max+=1
