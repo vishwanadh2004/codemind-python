@@ -1,4 +1,3 @@
 r=int(input())
-pi=3.14
-a=pi*r*r
-print(f"{a:.2f}")
+c=3.14*r*r
+print(f'{c:.2f}')
